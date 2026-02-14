@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Jindal | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="background-glow"></div>
+
+    <header class="navbar">
+        <div class="logo">AJ.</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Theme toggle placeholder -->
+        <div class="theme-toggle"></div>
+    </header>
+
+    <main>
+        <section id="about" class="hero-section">
+            <div class="hero-content">
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="name">Abhishek Jindal</h1>
+                <h2 class="title"><span class="typing-text"></span></h2>
+                <p class="bio">
+                    Detail-oriented engineer with experience in distributed systems, backend security, and full-stack
+                    development.
+                    Building scalable solutions at Amazon and Deloitte.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#" class="btn btn-secondary"><i class="fas fa-download"></i> Resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/abhiaj12" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/abhishekjindal724" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:abhishekjindal724@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <!-- Visual Element Placeholder -->
+            <div class="hero-visual">
+                <div class="visual-circle"></div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3>Amazon</h3>
+                        <span class="timeline-date">Jan 2025 - Jun 2025</span>
+                    </div>
+                    <h4>Software Development Engineer Intern</h4>
+                    <p class="location">Gurugram, India</p>
+                    <ul>
+                        <li><strong>Distributed Systems Migration:</strong> Migrated 6+ large-scale internal services
+                            across AWS regions, enhancing fault tolerance and impacted 500K+ transactions/month.</li>
+                        <li><strong>API Development & Reliability:</strong> Refactored Java-based APIs and upgraded
+                            endpoints to HTTPS, reducing request errors by 100% and resolving 3 high-severity incidents.
+                        </li>
+                        <li><strong>Backend Security & IAM:</strong> Redesigned IAM roles, reducing access issues by 80%
+                            and improving multi-region governance.</li>
+                        <li><strong>Feature Enablement:</strong> Implemented shipment in-transit cancellation logic,
+                            reducing wrong deliveries by 70%.</li>
+                        <li><strong>Agile Collaboration:</strong> Delivered reliably in sprints through cross-team
+                            efforts for BigMesh/SuperStar system upgrades.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3>Deloitte</h3>
+                        <span class="timeline-date">Jul 2025 - Present</span>
+                    </div>
+                    <h4>Marketing and Commerce Analyst Intern</h4>
+                    <p class="location">Gurugram, India</p>
+                    <ul>
+                        <li><strong>Frontend Training:</strong> Completed hands-on training in HTML, CSS, JavaScript,
+                            and React, improving delivery speed for full-stack applications.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>TaskSync Task Management</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/abhishekjindal724/TaskSync" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p>A full-stack task management application with real-time updates.</p>
+                    <ul class="tech-stack">
+                        <li>Java (Spring Boot)</li>
+                        <li>PostgreSQL</li>
+                        <li>React.js</li>
+                        <li>CI/CD</li>
+                    </ul>
+                    <div class="project-details">
+                        <ul>
+                            <li>Designed REST APIs supporting layered architecture.</li>
+                            <li>Optimized database queries increasing efficiency by 30%.</li>
+                            <li>Automated release cycles by 40%.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>T20 Score Predictor</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/abhishekjindal724/T20_score_predictor" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                            <!-- Placeholder for Demo Link -->
+                        </div>
+                    </div>
+                    <p>Machine Learning model to predict cricket scores.</p>
+                    <ul class="tech-stack">
+                        <li>Python</li>
+                        <li>Scikit-learn</li>
+                        <li>XGBoost</li>
+                        <li>Streamlit</li>
+                    </ul>
+                    <div class="project-details">
+                        <ul>
+                            <li>Achieved MAE of 5-6% on 700+ matches.</li>
+                            <li>Improved accuracy by 8% with advanced feature engineering.</li>
+                            <li>Deployed real-time app used by 300+ visitors.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Custom C++ Graph Library</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/abhishekjindal724/Cpp-Graph-Algorithms-Library"
+                                target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p>High-performance graph algorithms library.</p>
+                    <ul class="tech-stack">
+                        <li>C++</li>
+                        <li>Data Structures</li>
+                        <li>CI/CD</li>
+                    </ul>
+                    <div class="project-details">
+                        <ul>
+                            <li>Implemented BFS, DFS, Dijkstra for million-node graphs.</li>
+                            <li>Reduced runtime by 30%.</li>
+                            <li>Achieved 100% code coverage with automated testing.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-wrapper">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span>Java</span>
+                        <span>C++</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Frameworks</h3>
+                    <div class="skill-tags">
+                        <span>Spring Boot</span>
+                        <span>J2EE</span>
+                        <span>REST APIs</span>
+                        <span>Flask</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span>PostgreSQL</span>
+                        <span>MySQL</span>
+                        <span>DynamoDB</span>
+                        <span>Cassandra</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>Docker</span>
+                        <span>Postman</span>
+                        <span>Jenkins</span>
+                        <span>Kubernetes</span>
+                        <span>JUnit</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud/DevOps</h3>
+                    <div class="skill-tags">
+                        <span>AWS</span>
+                        <span>Kubernetes</span>
+                        <span>Azure/GCP</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <div class="edu-header">
+                    <h3>Thapar Institute of Engineering and Technology</h3>
+                    <span class="edu-date">Nov 2021 - Jun 2025</span>
+                </div>
+                <p class="edu-degree">B.E. in Electronics and Computer Engineering</p>
+                <div class="edu-meta">
+                    <span class="edu-grade">CGPA: 7.68</span>
+                    <span class="edu-location">Patiala, Punjab</span>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact" class="footer-section">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, my inbox
+                is always open.</p>
+            <a href="mailto:abhishekjindal724@gmail.com" class="btn btn-primary big-btn">Say Hello</a>
+
+            <div class="footer-bottom">
+                <p>Designed & Built by Abhishek Jindal</p>
+                <div class="footer-socials">
+                    <a href="https://linkedin.com/in/abhiaj12" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/abhishekjindal724" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
